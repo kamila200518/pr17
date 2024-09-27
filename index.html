@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Каталог товаров</h1>
+        <div class="posts">
+            
+        </div>
+       <div class="full__post">
+            
+       </div>
+        <script src="js/js.js"></script>
+    </body>
+</body>
+</html>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+    gap: 30px;
+}
+.post{
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid pink;
+    border-radius: 30px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn{
+    background-color: pink;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 0;
+    display: block;
+}
+</style>
